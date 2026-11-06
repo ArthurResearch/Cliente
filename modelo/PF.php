@@ -13,7 +13,7 @@ class PF extends Cliente {
         return $this->cpf;
     }
     public function getTipo(){
-        return "Pessoa Física";
+        return "F";
     }
 
     public function getNomeCompleto(): string
